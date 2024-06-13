@@ -8,13 +8,25 @@ import json
 import re
 from selenium.webdriver.common.keys import Keys
 
-print("Please log in...")
+browser_type = int(input("Please enter an integer 1-5 for which browser you'd like to use\n(you need to download the corresponding webdriver):\n1: Chrome\n2: Edge\n3: FireFox\n4: Internet Explorer\n5: Safari\n"))
+print("Please enter Conjuguemos login")
 username=input("Username: ")
 password=input("Password: ")
 vocab_id=input("What is the ID of the lesson?\n")
 wait_time=input("How much time do you want the bot to wait in between questions?\n")
-# Initialize the Safari WebDriver
-driver = webdriver.Safari()
+
+driver:webdriver
+
+if browser_type == 1:
+    driver = webdriver.Chrome()
+elif browser_type == 2:
+    driver = webdriver.Edge()
+elif browser_type == 3:
+    driver = webdriver.Firefox()
+elif browser_type == 4:
+    driver = webdriver.Ie()
+elif browser_type == 5:
+    driver = webdriver.Safari()
 
 # Navigate to the login page
 driver.get("https://conjuguemos.com/auth/login")
