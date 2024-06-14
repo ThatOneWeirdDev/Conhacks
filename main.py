@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 import json
 import re
 from selenium.webdriver.common.keys import Keys
+import random
 
 # Function to select browser driver
 def select_browser(browser_type):
@@ -30,6 +31,7 @@ username = input("Username: ")
 password = input("Password: ")
 vocab_id = input("What is the ID of the lesson?\n")
 wait_time = input("How much time do you want the bot to wait in between questions?\n")
+percent_correct = int(input("What percent do you want out of 100?\n"))
 
 try:
     driver = select_browser(browser_type)
@@ -110,7 +112,6 @@ try:
         EC.element_to_be_clickable((By.CLASS_NAME, "btn--start-gp"))
     )
     start_button.click()
-
     time.sleep(1)
 
     while True:
@@ -119,7 +120,7 @@ try:
             question_input = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.ID, "question-input"))
             )
-
+            
             # Get the text of the question
             question_text = question_input.text.strip()
 
@@ -144,6 +145,12 @@ try:
                 EC.presence_of_element_located((By.ID, "answer-input"))
             )
             answer_field.click()
+
+            if random.randrange(0, 100) > percent_correct:
+                answer_field.send_keys("idk")
+                answer_field.send_keys(Keys.RETURN)
+                answer_field.send_keys(Keys.COMMAND + "a")
+                answer_field.send_keys(Keys.BACK_SPACE)
             answer_field.send_keys(answer)
             answer_field.send_keys(Keys.RETURN)
 
