@@ -38,6 +38,7 @@ try:
 
     # Navigate to the login page
     driver.get("https://conjuguemos.com/auth/login")
+    driver.maximize_window()
 
     # Wait for the cookie acceptance button to be present and then click it
     cookie_button = WebDriverWait(driver, 10).until(
