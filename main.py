@@ -154,4 +154,5 @@ try:
             break
 
 finally:
-    driver.quit()
+    while True:
+        continue
