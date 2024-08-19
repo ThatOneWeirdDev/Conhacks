@@ -1,7 +1,10 @@
+![wallpapersden com_iceberg-minimalist_7680x4320 (1)](https://github.com/user-attachments/assets/d1802a3b-611c-4dec-917e-dc2b4c1946c6)
+
+
 Notes:
 1. This is the first working hack for Conjuguemos 3.
 2. Conhacks utilizes Selenium and needs your login info to access Conjuguemos.
-3. This bot only works with Graded Practice Vocabulary lessons. That means no verb conjjugations!
+3. This bot only works with Graded Practice Vocabulary lessons. That means no verb conjugations!
 4. Please use responsibly!
 
 Features:
