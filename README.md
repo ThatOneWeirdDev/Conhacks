@@ -8,4 +8,7 @@ Features:
 1. Pick different browsers to run Conjuguemos on *You must download the corresponding Webdriver first.
 2. Choose how long to wait in between answering questions - Or you can do no wait time at all...
 3. Complete the lesson with a percentage that fits you.
-4. Brag to your friends!
+
+---
+
+Disclaimer: By using this tool, you assume full responsibility for any consequences. I am not liable for any issues or outcomes that may arise from its use.
