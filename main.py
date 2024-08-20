@@ -1,1 +1,166 @@
-exec(''.join([chr(ord(c) - 1) for c in "ZnJvbSBzZWxlbml1bS53ZWJkcml2ZXIuY29tbW9uLmJ5IGltcG9ydCBCeQpmcm9tIHNlbGVuaXVtLndlYmRyaXZlci5zdXBwb3J0LnVpIGltcG9ydCBXZWJEcml2ZXJXYWl0CmZyb20gc2VsZW5pdW0ud2ViZHJpdmVyLnN1cHBvcnQgaW1wb3J0IGV4cGVjdGVkX2NvbmRpdGlvbnMgYXMgRUMKZnJvbSBzZWxlbml1bSBpbXBvcnQgd2ViZHJpdmVyCmltcG9ydCB0aW1lCmZyb20gYnM0IGltcG9ydCBCZWF1dGlmdWxTb3VwCmltcG9ydCBqc29uCmltcG9ydCByZQpmcm9tIHNlbGVuaXVtLndlYmRyaXZlci5jb21tb24ua2V5cyBpbXBvcnQgS2V5cwppbXBvcnQgcmFuZG9tCgojIEZ1bmN0aW9uIHRvIHNlbGVjdCBicm93c2VyIGRyaXZlcgpkZWYgc2VsZWN0X2Jyb3dzZXIoYnJvd3Nlcl90eXBlKToKICAgIGlmIGJyb3dzZXJfdHlwZSA9PSAxOgogICAgICAgIHJldHVybiB3ZWJkcml2ZXIuQ2hyb21lKCkKICAgIGVsaWYgYnJvd3Nlcl90eXBlID09IDI6CiAgICAgICAgcmV0dXJuIHdlYmRyaXZlci5FZGdlKCkKICAgIGVsaWYgYnJvd3Nlcl90eXBlID09IDM6CiAgICAgICAgcmV0dXJuIHdlYmRyaXZlci5GaXJlZm94KCkKICAgIGVsaWYgYnJvd3Nlcl90eXBlID09IDQ6CiAgICAgICAgcmV0dXJuIHdlYmRyaXZlci5JZSgpCiAgICBlbGlmIGJyb3dzZXJfdHlwZSA9PSA1OgogICAgICAgIHJldHVybiB3ZWJkcml2ZXIuU2FmYXJpKCkKICAgIGVsc2U6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiSW52YWxpZCBicm93c2VyIHR5cGUuIFBsZWFzZSBlbnRlciBhIG51bWJlciBiZXR3ZWVuIDEgYW5kIDUuIikKCiMgR2V0IHVzZXIgaW5wdXRzCmJyb3dzZXJfdHlwZSA9IGludChpbnB1dCgiUGxlYXNlIGVudGVyIGFuIGludGVnZXIgMS01IGZvciB3aGljaCBicm93c2VyIHlvdSdkIGxpa2UgdG8gdXNlXG4oeW91IG5lZWQgdG8gZG93bmxvYWQgdGhlIGNvcnJlc3BvbmRpbmcgd2ViZHJpdmVyKTpcbjE6IENocm9tZVxuMjogRWRnZVxuMzogRmlyZUZveFxuNDogSW50ZXJuZXQgRXhwbG9yZXJcbjU6IFNhZmFyaVxuIikpCnByaW50KCJQbGVhc2UgZW50ZXIgQ29uanVndWVtb3MgbG9naW4iKQp1c2VybmFtZSA9IGlucHV0KCJVc2VybmFtZTogIikKcGFzc3dvcmQgPSBpbnB1dCgiUGFzc3dvcmQ6ICIpCnZvY2FiX2lkID0gaW5wdXQoIldoYXQgaXMgdGhlIElEIG9mIHRoZSBsZXNzb24/XG4iKQp3YWl0X3RpbWUgPSBpbnB1dCgiSG93IG11Y2ggdGltZSBkbyB5b3Ugd2FudCB0aGUgYm90IHRvIHdhaXQgaW4gYmV0d2VlbiBxdWVzdGlvbnM/XG4iKQpwZXJjZW50X2NvcnJlY3QgPSBpbnQoaW5wdXQoIldoYXQgcGVyY2VudCBkbyB5b3Ugd2FudCBvdXQgb2YgMTAwP1xuIikpCgp0cnk6CiAgICBkcml2ZXIgPSBzZWxlY3RfYnJvd3Nlcihicm93c2VyX3R5cGUpCgogICAgIyBOYXZpZ2F0ZSB0byB0aGUgbG9naW4gcGFnZQogICAgZHJpdmVyLmdldCgiaHR0cHM6Ly9jb25qdWd1ZW1vcy5jb20vYXV0aC9sb2dpbiIpCiAgICBkcml2ZXIubWF4aW1pemVfd2luZG93KCkKCiAgICAjIFdhaXQgZm9yIHRoZSBjb29raWUgYWNjZXB0YW5jZSBidXR0b24gdG8gYmUgcHJlc2VudCBhbmQgdGhlbiBjbGljayBpdAogICAgY29va2llX2J1dHRvbiA9IFdlYkRyaXZlcldhaXQoZHJpdmVyLCAxMCkudW50aWwoCiAgICAgICAgRUMucHJlc2VuY2Vfb2ZfZWxlbWVudF9sb2NhdGVkKChCeS5DTEFTU19OQU1FLCAianMtY29va2llLWNvbmZpcm0tY2xvc2UiKSkKICAgICkKICAgIGNvb2tpZV9idXR0b24uY2xpY2soKQogICAgcHJpbnQoIkZvdW5kIGFuZCBjbGlja2VkIGNvb2tpZSBhY2NlcHQgYnV0dG9uIGVsZW1lbnQiKQoKICAgICMgV2FpdCBmb3IgdGhlIHVzZXJuYW1lIGZpZWxkIHRvIGJlIHByZXNlbnQgYW5kIHRoZW4gc2VuZCBrZXlzIHRvIGl0CiAgICB1c2VybmFtZV9maWVsZCA9IFdlYkRyaXZlcldhaXQoZHJpdmVyLCAxMCkudW50aWwoCiAgICAgICAgRUMucHJlc2VuY2Vfb2ZfZWxlbWVudF9sb2NhdGVkKChCeS5JRCwgImlkZW50aXR5IikpCiAgICApCiAgICB1c2VybmFtZV9maWVsZC5jbGljaygpCiAgICB1c2VybmFtZV9maWVsZC5zZW5kX2tleXModXNlcm5hbWUpCiAgICBwcmludCgiRm91bmQgdXNlcm5hbWUgZmllbGQgYW5kIGVudGVyZWQgdGV4dCIpCgogICAgIyBXYWl0IGZvciB0aGUgcGFzc3dvcmQgZmllbGQgdG8gYmUgcHJlc2VudCBhbmQgdGhlbiBzZW5kIGtleXMgdG8gaXQKICAgIHBhc3N3b3JkX2ZpZWxkID0gV2ViRHJpdmVyV2FpdChkcml2ZXIsIDEwKS51bnRpbCgKICAgICAgICBFQy5wcmVzZW5jZV9vZl9lbGVtZW50X2xvY2F0ZWQoKEJ5LklELCAicGFzc3dvcmQiKSkKICAgICkKICAgIHBhc3N3b3JkX2ZpZWxkLmNsaWNrKCkKICAgIHBhc3N3b3JkX2ZpZWxkLnNlbmRfa2V5cyhwYXNzd29yZCkKICAgIHByaW50KCJGb3VuZCBwYXNzd29yZCBmaWVsZCBhbmQgZW50ZXJlZCB0ZXh0IikKCiAgICAjIFdhaXQgZm9yIHRoZSBsb2dpbiBidXR0b24gdG8gYmUgcHJlc2VudCBhbmQgdGhlbiBjbGljayBpdAogICAgbG9naW5fYnV0dG9uID0gV2ViRHJpdmVyV2FpdChkcml2ZXIsIDEwKS51bnRpbCgKICAgICAgICBFQy5wcmVzZW5jZV9vZl9lbGVtZW50X2xvY2F0ZWQoKEJ5LklELCAibG9naW5fYnRuIikpCiAgICApCiAgICBsb2dpbl9idXR0b24uY2xpY2soKQoKICAgICMgV2FpdCBmb3IgdGhlIGxvZ2luIHRvIGNvbXBsZXRlCiAgICBXZWJEcml2ZXJXYWl0KGRyaXZlciwgMTApLnVudGlsKAogICAgICAgIEVDLnByZXNlbmNlX29mX2VsZW1lbnRfbG9jYXRlZCgoQnkuQ0xBU1NfTkFNRSwgImFjdGl2ZSIpKQogICAgKQoKICAgICMgTmF2aWdhdGUgdG8gdGhlIHZvY2FidWxhcnkgbGlzdCBwYWdlCiAgICBkcml2ZXIuZ2V0KGYnaHR0cHM6Ly9jb25qdWd1ZW1vcy5jb20vdm9jYWJ1bGFyeS92b2NhYl9jaGFydC97dm9jYWJfaWR9JykKICAgIHRpbWUuc2xlZXAoMC41KQogICAgCiAgICAjIEdldCB0aGUgcGFnZSBzb3VyY2UgKEhUTUwpCiAgICBwYWdlX3NvdXJjZSA9IGRyaXZlci5wYWdlX3NvdXJjZQoKICAgICMgUGFyc2UgdGhlIEhUTUwgd2l0aCBCZWF1dGlmdWxTb3VwCiAgICBzb3VwID0gQmVhdXRpZnVsU291cChwYWdlX3NvdXJjZSwgJ2h0bWwucGFyc2VyJykKCiAgICAjIEZpbmQgdGhlIHZvY2FidWxhcnkgbGlzdCB0YWJsZQogICAgdGFibGUgPSBzb3VwLmZpbmQoJ3RhYmxlJywgY2xhc3NfPSd0YWJsZSB0YWJsZS0tZmF0JykKCiAgICAjIEV4dHJhY3QgdGhlIHZvY2FidWxhcnkgbGlzdAogICAgdm9jYWJfbGlzdCA9IFtdCiAgICBmb3Igcm93IGluIHRhYmxlLmZpbmRfYWxsKCd0cicpWzE6XTogICMgU2tpcCB0aGUgaGVhZGVyIHJvdwogICAgICAgIGNvbHVtbnMgPSByb3cuZmluZF9hbGwoJ3RkJykKICAgICAgICBpZiBsZW4oY29sdW1ucykgPT0gMjoKICAgICAgICAgICAgcHJvbXB0ID0gY29sdW1uc1swXS50ZXh0LnN0cmlwKCkKICAgICAgICAgICAgIyBSZW1vdmUgbnVtYmVycyBmcm9tIHRoZSBwcm9tcHQKICAgICAgICAgICAgcHJvbXB0ID0gcmUuc3ViKHInXlxkK1wuXHMqJywgJycsIHByb21wdCkKICAgICAgICAgICAgYW5zd2VyID0gY29sdW1uc1sxXS50ZXh0LnN0cmlwKCkKICAgICAgICAgICAgIyBSZW1vdmUgbnVtYmVycyBmcm9tIHRoZSBhbnN3ZXIKICAgICAgICAgICAgYW5zd2VyID0gcmUuc3ViKHInXlxkK1wuXHMqJywgJycsIGFuc3dlcikKICAgICAgICAgICAgaWYgIi8iIGluIGFuc3dlcjoKICAgICAgICAgICAgICAgIGFuc3dlciA9IGFuc3dlci5zcGxpdCgiLyIpWzBdCiAgICAgICAgICAgIHZvY2FiX2xpc3QuYXBwZW5kKHsiUHJvbXB0IjogcHJvbXB0LCAiQW5zd2VyIjogYW5zd2VyfSkKCiAgICAjIENvbnZlcnQgdGhlIHZvY2FidWxhcnkgbGlzdCB0byBKU09OCiAgICB2b2NhYl9qc29uID0ganNvbi5kdW1wcyh2b2NhYl9saXN0LCBlbnN1cmVfYXNjaWk9RmFsc2UsIGluZGVudD0yKQoKICAgICMgTmF2aWdhdGUgdG8gdGhlIGhvbWV3b3JrIHBhZ2UKICAgIGRyaXZlci5nZXQoZidodHRwczovL2Nvbmp1Z3VlbW9zLmNvbS92b2NhYnVsYXJ5L2hvbWV3b3JrL3t2b2NhYl9pZH0nKQoKICAgICMgV2FpdCBmb3IgdGhlIHN0YXJ0IGJ1dHRvbiB0byBiZSBjbGlja2FibGUgYW5kIHRoZW4gY2xpY2sgaXQKICAgIHN0YXJ0X2J1dHRvbiA9IFdlYkRyaXZlcldhaXQoZHJpdmVyLCAyMCkudW50aWwoCiAgICAgICAgRUMuZWxlbWVudF90b19iZV9jbGlja2FibGUoKEJ5LkNMQVNTX05BTUUsICJidG4tLXN0YXJ0LWdwIikpCiAgICApCiAgICBzdGFydF9idXR0b24uY2xpY2soKQogICAgdGltZS5zbGVlcCgxKQoKICAgIHdoaWxlIFRydWU6CiAgICAgICAgdHJ5OgogICAgICAgICAgICAjIFdhaXQgZm9yIHRoZSBxdWVzdGlvbiBpbnB1dCBmaWVsZCB0byBiZSBwcmVzZW50CiAgICAgICAgICAgIHF1ZXN0aW9uX2lucHV0ID0gV2ViRHJpdmVyV2FpdChkcml2ZXIsIDEwKS51bnRpbCgKICAgICAgICAgICAgICAgIEVDLnByZXNlbmNlX29mX2VsZW1lbnRfbG9jYXRlZCgoQnkuSUQsICJxdWVzdGlvbi1pbnB1dCIpKQogICAgICAgICAgICApCiAgICAgICAgICAgIAogICAgICAgICAgICAjIEdldCB0aGUgdGV4dCBvZiB0aGUgcXVlc3Rpb24KICAgICAgICAgICAgcXVlc3Rpb25fdGV4dCA9IHF1ZXN0aW9uX2lucHV0LnRleHQuc3RyaXAoKQoKICAgICAgICAgICAgcHJpbnQoZidRdWVzdGlvbiB0ZXh0OiB7cXVlc3Rpb25fdGV4dH0nKQoKICAgICAgICAgICAgIyBGaW5kIHRoZSBjb3JyZXNwb25kaW5nIGFuc3dlciBmcm9tIHZvY2FiX2xpc3QKICAgICAgICAgICAgYW5zd2VyID0gTm9uZQogICAgICAgICAgICBmb3IgaXRlbSBpbiB2b2NhYl9saXN0OgogICAgICAgICAgICAgICAgaWYgaXRlbVsiUHJvbXB0Il0gPT0gcXVlc3Rpb25fdGV4dDoKICAgICAgICAgICAgICAgICAgICBhbnN3ZXIgPSBpdGVtWyJBbnN3ZXIiXQogICAgICAgICAgICAgICAgICAgIGJyZWFrCgogICAgICAgICAgICBpZiBhbnN3ZXI6CiAgICAgICAgICAgICAgICBwcmludChmIlF1ZXN0aW9uOiB7cXVlc3Rpb25fdGV4dH0iKQogICAgICAgICAgICAgICAgcHJpbnQoZiJBbnN3ZXI6IHthbnN3ZXJ9IikKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHByaW50KGYiTm8gYW5zd2VyIGZvdW5kIGZvciBxdWVzdGlvbjoge3F1ZXN0aW9uX3RleHR9IikKICAgICAgICAgICAgICAgIGJyZWFrCgogICAgICAgICAgICAjIFdhaXQgZm9yIHRoZSBhbnN3ZXIgZmllbGQgdG8gYmUgcHJlc2VudCBhbmQgdGhlbiBzZW5kIGtleXMgdG8gaXQKICAgICAgICAgICAgYW5zd2VyX2ZpZWxkID0gV2ViRHJpdmVyV2FpdChkcml2ZXIsIDEwKS51bnRpbCgKICAgICAgICAgICAgICAgIEVDLnByZXNlbmNlX29mX2VsZW1lbnRfbG9jYXRlZCgoQnkuSUQsICJhbnN3ZXItaW5wdXQiKSkKICAgICAgICAgICAgKQogICAgICAgICAgICBhbnN3ZXJfZmllbGQuY2xpY2soKQoKICAgICAgICAgICAgaWYgcmFuZG9tLnJhbmRyYW5nZSgwLCAxMDApID4gcGVyY2VudF9jb3JyZWN0OgogICAgICAgICAgICAgICAgYW5zd2VyX2ZpZWxkLnNlbmRfa2V5cygiaWRrIikKICAgICAgICAgICAgICAgIGFuc3dlcl9maWVsZC5zZW5kX2tleXMoS2V5cy5SRVRVUk4pCiAgICAgICAgICAgICAgICBhbnN3ZXJfZmllbGQuc2VuZF9rZXlzKEtleXMuQ09NTUFORCArICJhIikKICAgICAgICAgICAgICAgIGFuc3dlcl9maWVsZC5zZW5kX2tleXMoS2V5cy5CQUNLX1NQQUNFKQogICAgICAgICAgICBhbnN3ZXJfZmllbGQuc2VuZF9rZXlzKGFuc3dlcikKICAgICAgICAgICAgYW5zd2VyX2ZpZWxkLnNlbmRfa2V5cyhLZXlzLlJFVFVSTikKCiAgICAgICAgICAgIHRpbWUuc2xlZXAoZmxvYXQod2FpdF90aW1lKSkgICMgQWRqdXN0IHNsZWVwIHRpbWUgYXMgbmVjZXNzYXJ5CgogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICAgICAgcHJpbnQoZiJFcnJvcjoge2V9IikKICAgICAgICAgICAgYnJlYWsKCmZpbmFsbHk6CiAgICB3aGlsZSBUcnVlOgogICAgICAgIGNvbnRpbnVl"]))
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium import webdriver
+import time
+from bs4 import BeautifulSoup
+import json
+import re
+from selenium.webdriver.common.keys import Keys
+import random
+
+# Function to select browser driver
+def select_browser(browser_type):
+    if browser_type == 1:
+        return webdriver.Chrome()
+    elif browser_type == 2:
+        return webdriver.Edge()
+    elif browser_type == 3:
+        return webdriver.Firefox()
+    elif browser_type == 4:
+        return webdriver.Ie()
+    elif browser_type == 5:
+        return webdriver.Safari()
+    else:
+        raise ValueError("Invalid browser type. Please enter a number between 1 and 5.")
+
+# Get user inputs
+browser_type = int(input("Please enter an integer 1-5 for which browser you'd like to use\n(you need to download the corresponding webdriver):\n1: Chrome\n2: Edge\n3: FireFox\n4: Internet Explorer\n5: Safari\n"))
+print("Please enter Conjuguemos login")
+username = input("Username: ")
+password = input("Password: ")
+vocab_id = input("What is the ID of the lesson?\n")
+wait_time = input("How much time do you want the bot to wait in between questions?\n")
+percent_correct = int(input("What percent do you want out of 100?\n"))
+
+try:
+    driver = select_browser(browser_type)
+
+    # Navigate to the login page
+    driver.get("https://conjuguemos.com/auth/login")
+    driver.maximize_window()
+
+    # Wait for the cookie acceptance button to be present and then click it
+    cookie_button = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.CLASS_NAME, "js-cookie-confirm-close"))
+    )
+    cookie_button.click()
+    print("Found and clicked cookie accept button element")
+
+    # Wait for the username field to be present and then send keys to it
+    username_field = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.ID, "identity"))
+    )
+    username_field.click()
+    username_field.send_keys(username)
+    print("Found username field and entered text")
+
+    # Wait for the password field to be present and then send keys to it
+    password_field = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.ID, "password"))
+    )
+    password_field.click()
+    password_field.send_keys(password)
+    print("Found password field and entered text")
+
+    # Wait for the login button to be present and then click it
+    login_button = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.ID, "login_btn"))
+    )
+    login_button.click()
+
+    # Wait for the login to complete
+    WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.CLASS_NAME, "active"))
+    )
+
+    # Navigate to the vocabulary list page
+    driver.get(f'https://conjuguemos.com/vocabulary/vocab_chart/{vocab_id}')
+    time.sleep(0.5)
+    
+    # Get the page source (HTML)
+    page_source = driver.page_source
+
+    # Parse the HTML with BeautifulSoup
+    soup = BeautifulSoup(page_source, 'html.parser')
+
+    # Find the vocabulary list table
+    table = soup.find('table', class_='table table--fat')
+
+    # Extract the vocabulary list
+    vocab_list = []
+    for row in table.find_all('tr')[1:]:  # Skip the header row
+        columns = row.find_all('td')
+        if len(columns) == 2:
+            prompt = columns[0].text.strip()
+            # Remove numbers from the prompt
+            prompt = re.sub(r'^\d+\.\s*', '', prompt)
+            answer = columns[1].text.strip()
+            # Remove numbers from the answer
+            answer = re.sub(r'^\d+\.\s*', '', answer)
+            if "/" in answer:
+                answer = answer.split("/")[0]
+            vocab_list.append({"Prompt": prompt, "Answer": answer})
+
+    # Convert the vocabulary list to JSON
+    vocab_json = json.dumps(vocab_list, ensure_ascii=False, indent=2)
+
+    # Navigate to the homework page
+    driver.get(f'https://conjuguemos.com/vocabulary/homework/{vocab_id}')
+
+    # Wait for the start button to be clickable and then click it
+    start_button = WebDriverWait(driver, 20).until(
+        EC.element_to_be_clickable((By.CLASS_NAME, "btn--start-gp"))
+    )
+    start_button.click()
+    time.sleep(1)
+
+    while True:
+        try:
+            # Wait for the question input field to be present
+            question_input = WebDriverWait(driver, 10).until(
+                EC.presence_of_element_located((By.ID, "question-input"))
+            )
+            
+            # Get the text of the question
+            question_text = question_input.text.strip()
+
+            print(f'Question text: {question_text}')
+
+            # Find the corresponding answer from vocab_list
+            answer = None
+            for item in vocab_list:
+                if item["Prompt"] == question_text:
+                    answer = item["Answer"]
+                    break
+
+            if answer:
+                print(f"Question: {question_text}")
+                print(f"Answer: {answer}")
+            else:
+                print(f"No answer found for question: {question_text}")
+                break
+
+            # Wait for the answer field to be present and then send keys to it
+            answer_field = WebDriverWait(driver, 10).until(
+                EC.presence_of_element_located((By.ID, "answer-input"))
+            )
+            answer_field.click()
+
+            if random.randrange(0, 100) > percent_correct:
+                answer_field.send_keys("idk")
+                answer_field.send_keys(Keys.RETURN)
+                answer_field.send_keys(Keys.COMMAND + "a")
+                answer_field.send_keys(Keys.BACK_SPACE)
+            answer_field.send_keys(answer)
+            answer_field.send_keys(Keys.RETURN)
+
+            time.sleep(float(wait_time))  # Adjust sleep time as necessary
+
+        except Exception as e:
+            print(f"Error: {e}")
+            break
+
+finally:
+    while True:
+        continue
